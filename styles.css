@@ -191,7 +191,21 @@ header .mobile {
         }
 
         .photo-section {
+            width: 80%;
+            margin-left: auto;
+            margin-right: auto;
+            height: fit-content;
+        }
+
+        .photo-section .image-container {
+            height: fit-content;
+            /*overflow: hidden;*/
+            /*height: 794px;*/
+        }
+
+        .photo-section .image-container img {
             width: 100%;
+            
         }
 
         .mobile .image-container {
@@ -253,7 +267,10 @@ header .mobile {
 
         .portrait {
             padding: 1rem 0;
-            width: 100%;
+            width: 70%;
+            height: fit-content;
+            margin-left: auto;
+            margin-right: auto;
         }
 
             .portrait img {
